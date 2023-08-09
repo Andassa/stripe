@@ -1,4 +1,17 @@
 # stripe
+Before getting started to integrate Stripe Checkout in PHP, take a look at the file structure.
+
+stripe_checkout_with_php/
+├── config.php
+├── dbConnect.php
+├── index.php
+├── payment_init.php
+├── payment-success.php
+├── payment-cancel.php
+├── stripe-php/
+├── css/
+│   └── style.css
+└── images/
 Stripe Checkout Integration
 This is a Stripe Checkout Integration. The name of the database is "transactions". To begin, you need to create an account with Stripe Developer and obtain your own API key. Once you reach this step, update the keys in the source code. Then, execute the project on your localhost: Test Checkout Integration.
 
